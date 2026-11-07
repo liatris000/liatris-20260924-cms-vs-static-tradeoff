@@ -59,6 +59,10 @@ out/posts/news-20260901.html
 - パターンB は、実際のヘッドレス CMS には繋いでいない。`lib/get-posts-cms.js` は本来ヘッドレス CMS の REST API を `fetch` する想定の実装で、実際の API と同じレスポンス形(`contents` / `totalCount` / `offset` / `limit`)のローカル fixture(`data/cms-response.sample.json`)を代わりに読んでいる。`fetch` 呼び出しに差し替えれば実 API に繋ぎ替えられる
 - 記事の結論である「更新の流れ」の比較(手順の数)は、実際の運用で測ったものではない
 
+## 記事
+
+https://zenn.dev/liatris/articles/20260924-cms-vs-static-tradeoff
+
 ## ライセンス
 
 MIT
